@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+#dashboard_item li .active {
+  background: #3B82F6;
+  color: white;
+}
+
+.custom-loader {
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:conic-gradient(#0000 10%,#3B82F6);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 6px),#000 0);
+  animation:s3 1s infinite linear;
+}
+@keyframes s3 {to{transform: rotate(1turn)}}
+
+#new_post input {
+  @apply w-full bg-gray-50 rounded-md p-4 focus:outline-none focus:border-gray-300 border mt-2
+}
+
+#new_post label {
+  @apply text-base font-semibold capitalize
+}
+
+#dashboard_sidebar {
+  @apply antialiased bg-gray-50
+}
+
+.swal2-cancel {
+  margin-top: 0!important
+}

@@ -1,0 +1,40 @@
+[
+    {
+        "name": "John Doe",
+        "photo": "https://ibb.co/pfrW67G",
+        "email": "developerashrafulislamrifaz@gmail.com",
+        "chat_user": [
+            {
+                "name": "Mack Gyber",
+                "photo": "https://i.ibb.co/HhhPpbB/founder-2.jpg",
+                "email": "designerashrafulislamrifaz@gmail.com",
+                "chats1": [
+                    {
+                        "text": "hello",
+                        "time": "",
+                        "sent_by": ""
+                    }
+                ],
+                "chats2": [
+                    {
+                        "text": "hi",
+                        "time": "",
+                        "sent_by": ""
+                    }
+                ]
+            },
+            {
+                "name": "Mack Gyber",
+                "photo": "https://i.ibb.co/HhhPpbB/founder-2.jpg",
+                "email": "designerashrafulislamrifaz@gmail.com",
+                "chats": [
+                    {
+                        "text": "hi",
+                        "time": "",
+                        "sent_by": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
